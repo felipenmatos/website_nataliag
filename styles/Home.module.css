@@ -7,6 +7,80 @@
   align-items: center;
 }
 
+.imgProfile {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.containerDescription {
+  width: 50%;
+}
+
+.iconEmail {
+  width: 35px;
+  height: 35px;
+}
+
+.buttonLinkedIn {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  background-color: #0e76a8;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.buttonLinkedIn:hover {
+  color: #0e76a8;
+  background: #fff;
+  border: 1px solid #0e76a8;
+}
+
+.buttonBehance {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  background-color: #053eff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.buttonWhatsapp {
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  background-color: #44ad3a;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.buttonWhatsapp:hover {
+  color: #44ad3a;
+  background: #fff;
+  border: 1px solid #44ad3a;
+}
+
+.containerButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 150px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -32,7 +106,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
