@@ -23,23 +23,28 @@ export default function Home() {
       </div>
 
       <div className={styles.containerButtons}>
-        <button className={styles.buttonBehance}>
-          <a
-            className={styles.link}
-            href="https://www.behance.net/natliagonsalves"
-            target="_blank"
-          >
-            Behance
-          </a>
-        </button>
-        <button className={styles.buttonLinkedIn}>
-          <a>LinkedIn</a>
-        </button>
-        <button className={styles.buttonWhatsapp}>
-          <a>Whatsapp</a>
-        </button>
+        <a
+          className={styles.buttonBehance}
+          href="https://www.behance.net/natliagonsalves"
+          target="_blank"
+        >
+          Behance
+        </a>
+        <a
+          className={styles.buttonLinkedIn}
+          href="https://www.linkedin.com/in/nat%C3%A1lia-gonsalves-619682205/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a
+          className={styles.buttonWhatsapp}
+          href="https://wa.me/5575999476441?text=Olá%20Tudo%20bem?%20Tenho%20interesse%20em%20seus%20serviços."
+          target="_blank"
+        >
+          Whatsapp
+        </a>
       </div>
-
       <footer>
         <img className={styles.iconEmail} src="/assets/email.svg" />
         <p>contato.nataliag@gmail.com</p>
