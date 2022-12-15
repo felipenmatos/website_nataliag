@@ -32,6 +32,12 @@
   border-radius: 10px;
   font-size: 20px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 
 .buttonLinkedIn:hover {
@@ -49,6 +55,18 @@
   border-radius: 10px;
   font-size: 20px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonBehance:hover {
+  color: #053eff;
+  background: #fff;
+  border: 1px solid #053eff;
 }
 
 .buttonWhatsapp {
@@ -60,6 +78,12 @@
   border-radius: 10px;
   font-size: 20px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 
 .buttonWhatsapp:hover {
@@ -73,7 +97,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 800px;
-  height: 150px;
+  height: 100px;
 }
 
 .link {
