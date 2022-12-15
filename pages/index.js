@@ -4,15 +4,11 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className="container">
-      <img
-        className={styles.imgProfile}
-        src="/assets/Natalia.jpg"
-        alt="Photo"
-      />
+      <img className="imgProfile" src="/assets/Natalia.jpg" alt="Photo" />
 
       <h1>Natália G.</h1>
 
-      <div className={styles.containerDescription}>
+      <div className="containerDescription">
         <p>
           Baiana, formada em UX/UI Design na Cubos Academy, sou artesã nas horas
           vagas e gosto de usar minha criatividade e imaginação para desenvolver
@@ -22,23 +18,23 @@ export default function Home() {
         </p>
       </div>
 
-      <div className={styles.containerButtons}>
+      <div className="containerButtons">
         <a
-          className={styles.buttonBehance}
+          className="buttonBehance"
           href="https://www.behance.net/natliagonsalves"
           target="_blank"
         >
           Behance
         </a>
         <a
-          className={styles.buttonLinkedIn}
+          className="buttonLinkedIn"
           href="https://www.linkedin.com/in/nat%C3%A1lia-gonsalves-619682205/"
           target="_blank"
         >
           LinkedIn
         </a>
         <a
-          className={styles.buttonWhatsapp}
+          className="buttonWhatsapp"
           href="https://wa.me/5575999476441?text=Olá%20Tudo%20bem?%20Tenho%20interesse%20em%20seus%20serviços."
           target="_blank"
         >
@@ -46,7 +42,7 @@ export default function Home() {
         </a>
       </div>
       <footer>
-        <img className={styles.iconEmail} src="/assets/email.svg" />
+        <img className="iconEmail" src="/assets/email.svg" />
         <p>contato.nataliag@gmail.com</p>
       </footer>
 
@@ -58,6 +54,98 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+        }
+        .imgProfile {
+          width: 160px;
+          height: 160px;
+          border-radius: 100%;
+          border: 1px solid #000;
+        }
+
+        .containerDescription {
+          width: 50%;
+        }
+
+        .iconEmail {
+          width: 35px;
+          height: 35px;
+        }
+
+        .buttonLinkedIn {
+          width: 200px;
+          height: 70px;
+          cursor: pointer;
+          background-color: #0e76a8;
+          border: none;
+          border-radius: 10px;
+          font-size: 20px;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-decoration: none;
+          align-items: center;
+          text-align: center;
+        }
+
+        .buttonLinkedIn:hover {
+          color: #0e76a8;
+          background: #fff;
+          border: 1px solid #0e76a8;
+        }
+
+        .buttonBehance {
+          width: 200px;
+          height: 70px;
+          cursor: pointer;
+          background-color: #053eff;
+          border: none;
+          border-radius: 10px;
+          font-size: 20px;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-decoration: none;
+          align-items: center;
+          text-align: center;
+        }
+
+        .buttonBehance:hover {
+          color: #053eff;
+          background: #fff;
+          border: 1px solid #053eff;
+        }
+
+        .buttonWhatsapp {
+          width: 200px;
+          height: 70px;
+          cursor: pointer;
+          background-color: #44ad3a;
+          border: none;
+          border-radius: 10px;
+          font-size: 20px;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-decoration: none;
+          align-items: center;
+          text-align: center;
+        }
+
+        .buttonWhatsapp:hover {
+          color: #44ad3a;
+          background: #fff;
+          border: 1px solid #44ad3a;
+        }
+
+        .containerButtons {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          width: 800px;
+          height: 100px;
         }
         main {
           padding: 5rem 0;
